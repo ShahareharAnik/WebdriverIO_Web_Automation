@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9148","Open Browser","","Thu Feb 13 01:35:31 BDT 2025","passed","Thu Feb 13 01:35:40 BDT 2025","","BrainStation 23 Page Automation","",""
+"","15","Title Verified","","Thu Feb 13 01:35:40 BDT 2025","passed","Thu Feb 13 01:35:40 BDT 2025","","BrainStation 23 Page Automation","",""
+"","85","Scroll to the search","","Thu Feb 13 01:35:40 BDT 2025","passed","Thu Feb 13 01:35:40 BDT 2025","","BrainStation 23 Page Automation","",""
+"","2086","Search something","","Thu Feb 13 01:35:40 BDT 2025","passed","Thu Feb 13 01:35:42 BDT 2025","","BrainStation 23 Page Automation","",""

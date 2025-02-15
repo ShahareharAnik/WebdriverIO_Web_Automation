@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "ESNext", // Use ESNext for modern JavaScript features
+      "target": "es2022", // Target ES2022
+      "lib": [
+        "es2022",
+        "dom" // Include DOM types for browser-related code
+      ],
+      "types": [
+        "node", // Node.js types
+        "@wdio/globals/types", // WebdriverIO global types
+        "expect-webdriverio", // Expect-WebdriverIO types
+        "@wdio/mocha-framework" // Mocha framework types
+      ],
+      "allowJs": true,
+      "skipLibCheck": true, // Skip library checks for faster compilation
+      "noEmit": true, // Do not emit JavaScript files (since this is for type checking)
+      "allowImportingTsExtensions": true, // Allow importing TypeScript extensions
+      "resolveJsonModule": true, // Allow importing JSON files
+      "isolatedModules": true, // Ensure each file can be transpiled independently
+      "strict": true, // Enable all strict type-checking options
+      "noUnusedLocals": true, // Report unused local variables
+      "noUnusedParameters": true, // Report unused function parameters
+      "noFallthroughCasesInSwitch": true, // Report fallthrough cases in switch statements
+      "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+      "esModuleInterop": true, // Enable ES module interop
+      "baseUrl": ".", // Base directory for module resolution
+      "paths": {
+        "@src/*": ["src/*"] // Alias for src directory
+      }
+    },
+    "include": [
+      "test", // Include test files
+      "src", // Include src files
+      "wdio.conf.ts", // Include WebdriverIO configuration file
+      "src/pageobjects" // Include page objects
+    ]
+  }
